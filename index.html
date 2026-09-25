@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Así trabajan los profesores en China | Comparativo con Colombia</title>
+<meta name="description" content="Cómo funciona el sistema de profesores de la escuela pública en China, el grupo de investigación docente y cómo se compara con Colombia.">
+<meta name="theme-color" content="#A8201A">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:url" content="https://haroldco45.github.io/profesores-china/">
+<meta property="og:title" content="Así trabajan los profesores en China, y lo que Colombia puede aprender">
+<meta property="og:description" content="Ningún profesor prepara sus clases solo: el grupo de investigación docente explicado fácil, con un comparativo punto por punto con Colombia.">
+<meta property="og:image" content="https://haroldco45.github.io/profesores-china/og-image.jpg">
+<meta property="og:image:secure_url" content="https://haroldco45.github.io/profesores-china/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Profesores en China comparados con Colombia">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://haroldco45.github.io/profesores-china/og-image.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍎</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&text=%E6%95%99%E7%A0%94%E7%BB%84&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F8F5F2; --surface:#FFFFFF; --ink:#241412; --muted:#6A5550; --line:#E6DAD4;
+  --ai:#A8201A; --ai-ink:#FFFFFF; --sun:#F5B301; --sun-ink:#1B1400; --soft:#F6E6E2;
+  --wa:#127C44;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#1A1110; --surface:#251816; --ink:#F4ECE9; --muted:#BFA9A3; --line:#43302C;
+    --ai:#F29A8E; --ai-ink:#2A0906; --soft:#33201D; --wa:#27A765;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#1A1110; --surface:#251816; --ink:#F4ECE9; --muted:#BFA9A3; --line:#43302C;
+  --ai:#F29A8E; --ai-ink:#2A0906; --soft:#33201D; --wa:#27A765;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.0625rem;line-height:1.55;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--ai)}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Bricolage Grotesque","Figtree",system-ui,sans-serif;line-height:1.05;margin:0;letter-spacing:-0.02em}
+h2{font-size:clamp(1.8rem,5vw,2.6rem);font-weight:800;margin-bottom:.4em}
+.lede{color:var(--muted);max-width:60ch;margin:0 0 1.6rem}
+section{padding:64px 0}
+
+/* top bar */
+.top{display:flex;justify-content:space-between;align-items:center;padding:16px 0;gap:12px}
+.brand{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:1rem}
+.brand small{display:block;font-family:"Figtree",sans-serif;font-weight:500;font-size:.82rem;color:var(--muted)}
+.mini{font-weight:600;font-size:.92rem;text-decoration:none;border:1.5px solid var(--line);border-radius:999px;padding:9px 14px;color:var(--ink);white-space:nowrap}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 22px;border-radius:14px;font:700 1rem/1 "Figtree",sans-serif;text-decoration:none;border:0;cursor:pointer}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-main{background:var(--ai);color:var(--ai-ink)}
+.btn-line{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-sun{background:var(--sun);color:var(--sun-ink)}
+
+/* hero */
+.hero{padding:28px 0 56px}
+.hero-grid{display:grid;gap:36px;align-items:center}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.25fr .75fr}}
+.model{font-weight:600;color:var(--ai);margin-bottom:14px}
+.hero h1{font-size:clamp(2.3rem,7.4vw,4.2rem);font-weight:800;margin-bottom:.35em}
+.sub{font-size:1.14rem;color:var(--muted);max-width:52ch;margin:0 0 26px}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.kanji{justify-self:center;display:flex;gap:22px;align-items:stretch}
+.kanji .v{writing-mode:vertical-rl;font-family:"Noto Serif SC","Songti SC","SimSun",serif;font-weight:700;font-size:clamp(4.2rem,17vw,7.4rem);line-height:1;letter-spacing:.06em;color:var(--ink)}
+.kanji .r{writing-mode:vertical-rl;font-size:.95rem;color:var(--muted);display:flex;justify-content:space-between;gap:18px;border-left:3px solid var(--sun);padding-left:10px}
+.kanji .r b{color:var(--ink);font-weight:700}
+@media(max-width:899px){.kanji{order:-1;flex-direction:row}.kanji .v{writing-mode:horizontal-tb;font-size:clamp(2.4rem,13.5vw,4.4rem);letter-spacing:.02em;white-space:nowrap}.kanji .r{writing-mode:horizontal-tb;flex-direction:column;justify-content:center;gap:2px;font-size:.9rem}.kanji{justify-self:start;align-items:center;gap:16px}}
+
+/* steps */
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:14px;counter-reset:s}
+@media(min-width:760px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1040px){.steps{grid-template-columns:repeat(4,1fr)}}
+.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}
+.steps li::before{content:counter(s);display:inline-grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--soft);color:var(--ai);font:800 1.05rem/1 "Bricolage Grotesque",sans-serif;margin-bottom:12px}
+.steps h3{font-family:"Figtree",sans-serif;font-size:1.1rem;font-weight:700;letter-spacing:0;margin-bottom:6px}
+.steps p{margin:0;color:var(--muted);font-size:.96rem}
+
+/* cycle (método) */
+.cycle{background:var(--ai);color:var(--ai-ink);border-radius:26px;padding:30px 22px;display:grid;gap:28px}
+@media(min-width:900px){.cycle{grid-template-columns:1fr 1.1fr;padding:44px;align-items:center}}
+.cycle h2{color:inherit}
+.cycle .lede{color:inherit;opacity:.82}
+.ring{position:relative;width:min(100%,340px);aspect-ratio:1;margin:0 auto}
+.ring::before{content:"";position:absolute;inset:44px;border:2px dashed currentColor;opacity:.4;border-radius:50%}
+.ring .center{position:absolute;inset:0;display:grid;place-items:center;text-align:center;pointer-events:none}
+.ring .center span{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.05rem;line-height:1.15;max-width:9ch;opacity:.9}
+.node{position:absolute;width:118px;min-height:62px;padding:8px 6px;border-radius:14px;border:2px solid currentColor;background:var(--ai);color:inherit;font:700 .9rem/1.15 "Figtree",sans-serif;cursor:pointer;transform:translate(-50%,-50%)}
+.node small{display:block;font-weight:600;font-size:.72rem;opacity:.75;margin-bottom:3px}
+.node[aria-pressed="true"]{background:var(--sun);color:var(--sun-ink);border-color:var(--sun)}
+.n1{left:50%;top:13%}.n2{left:84%;top:50%}.n3{left:50%;top:87%}.n4{left:16%;top:50%}
+.panel{background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.22);border-radius:18px;padding:22px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .panel{background:rgba(0,0,0,.06);border-color:rgba(0,0,0,.2)}}
+:root[data-theme="dark"] .panel{background:rgba(0,0,0,.06);border-color:rgba(0,0,0,.2)}
+.panel h3{font-size:1.5rem;font-weight:800;margin-bottom:8px}
+.panel p{margin:0 0 12px}
+.panel p:last-child{margin:0}
+.panel .tip{font-size:.92rem;opacity:.85}
+.nav{display:flex;gap:10px;margin-top:16px}
+.nav button{min-height:44px;padding:0 16px;border-radius:12px;border:1.5px solid currentColor;background:transparent;color:inherit;font:700 .92rem/1 "Figtree",sans-serif;cursor:pointer}
+.origin{margin:22px 0 0;font-size:.92rem;opacity:.8;max-width:62ch}
+
+/* facts grid */
+.facts{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:760px){.facts{grid-template-columns:repeat(2,1fr)}}
+.fact{display:grid;grid-template-columns:1fr;gap:6px 14px;align-items:start;padding:18px;background:var(--surface);border:1px solid var(--line);border-radius:16px}
+@media(min-width:560px){.fact{grid-template-columns:auto 1fr}}
+.fact .big{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.5rem;color:var(--ai);min-width:82px;line-height:1.1}
+.fact h3{font-size:1.1rem;font-weight:700;margin-bottom:4px;font-family:"Figtree",sans-serif;letter-spacing:0}
+.fact p{margin:0;color:var(--muted);font-size:.96rem}
+.small{font-size:.88rem;color:var(--muted);margin-top:16px;max-width:75ch}
+
+/* problems */
+.bar{margin:26px 0 10px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.bar h3{font-family:"Figtree",sans-serif;font-size:1.1rem;font-weight:700;letter-spacing:0;margin-bottom:14px}
+.track{display:grid;grid-template-columns:4fr 1fr 5fr;height:18px;border-radius:9px;overflow:hidden;background:var(--soft)}
+.track i:nth-child(1){background:var(--muted)}
+.track i:nth-child(2){background:var(--ai)}
+.track i:nth-child(3){background:repeating-linear-gradient(90deg,var(--sun) 0 10px,transparent 10px 14px)}
+.legend{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px;font-size:.88rem;color:var(--muted)}
+.legend b{display:block;color:var(--ink);font-size:1.15rem;font-family:"Bricolage Grotesque",sans-serif}
+
+/* compare */
+.cmp-head{display:none}
+@media(min-width:760px){.cmp-head{display:grid;grid-template-columns:.8fr 1fr 1fr;gap:18px;padding:0 20px 10px;font-weight:700;color:var(--muted);font-size:.92rem}}
+.cmp{display:grid;gap:12px}
+.row{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 20px;display:grid;gap:12px}
+@media(min-width:760px){.row{grid-template-columns:.8fr 1fr 1fr;gap:18px;align-items:start}}
+.row h3{font-family:"Figtree",sans-serif;font-size:1.05rem;font-weight:700;letter-spacing:0}
+.cell{font-size:.96rem;color:var(--muted)}
+.cell b{display:block;color:var(--ink);font-weight:700;margin-bottom:2px}
+.cell .who{display:inline-block;font-size:.78rem;font-weight:700;padding:3px 9px;border-radius:999px;margin-bottom:6px}
+.jp .who{background:var(--soft);color:var(--ai)}
+.co .who{background:var(--sun);color:var(--sun-ink)}
+@media(min-width:760px){.cell .who{display:none}}
+
+/* adopt */
+.adopt{display:grid;gap:14px}
+@media(min-width:760px){.adopt{grid-template-columns:repeat(2,1fr)}}
+.adopt div{border-left:4px solid var(--sun);padding:4px 0 4px 16px}
+.adopt h3{font-family:"Figtree",sans-serif;font-size:1.08rem;font-weight:700;letter-spacing:0;margin-bottom:4px}
+.adopt p{margin:0;color:var(--muted);font-size:.96rem}
+.verdict{margin-top:30px;font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(1.3rem,3.6vw,1.75rem);line-height:1.25;max-width:34ch}
+
+/* faq */
+details{border-bottom:1px solid var(--line);padding:4px 0}
+details:first-of-type{border-top:1px solid var(--line)}
+summary{cursor:pointer;list-style:none;padding:16px 36px 16px 0;font-weight:700;font-size:1.06rem;position:relative;min-height:44px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";position:absolute;right:6px;top:50%;width:12px;height:12px;border-right:2.5px solid var(--ai);border-bottom:2.5px solid var(--ai);transform:translateY(-70%) rotate(45deg);transition:transform .2s}
+details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+details p{margin:0 0 18px;color:var(--muted);max-width:68ch}
+
+/* contact */
+.contact{display:grid;gap:24px;align-items:center;background:var(--soft);border-radius:26px;padding:32px 22px}
+@media(min-width:900px){.contact{grid-template-columns:1.3fr 1fr;padding:44px}}
+.contact h2{margin-bottom:.3em}
+.contact p{margin:0;color:var(--muted)}
+.contact .actions{flex-direction:column}
+.contact .btn{width:100%}
+footer{padding:32px 0 110px;color:var(--muted);font-size:.86rem}
+footer p{margin:0 0 8px;max-width:80ch}
+@media(min-width:760px){footer{padding-bottom:40px}}
+
+/* sticky mobile bar */
+.stick{position:fixed;left:0;right:0;bottom:0;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:var(--surface);border-top:1px solid var(--line);display:flex;gap:10px;align-items:center;z-index:5}
+.stick .p{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.1rem;line-height:1.1}
+.stick .p small{display:block;font-family:"Figtree",sans-serif;font-weight:500;font-size:.78rem;color:var(--muted)}
+.stick .btn{margin-left:auto;min-height:48px;padding:0 18px}
+@media(min-width:760px){.stick{display:none}}
+
+.bars{display:grid;gap:12px}
+.brow{display:grid;grid-template-columns:48px 1fr auto;gap:12px;align-items:center;font-size:.95rem}
+.brow span{color:var(--muted);font-weight:600}
+.brow b{font-family:"Bricolage Grotesque",sans-serif;font-variant-numeric:tabular-nums;min-width:110px;text-align:right}
+.bt{height:18px;background:var(--soft);border-radius:9px;overflow:hidden}
+.bt i{display:block;height:100%;background:var(--ai);border-radius:9px}
+.brow:last-child .bt i{background:var(--sun)}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">Vibras Positivas HM<small>Educación que se entiende</small></div>
+    <a class="mini" href="#colombia">Ver comparativo</a>
+  </header>
+</div>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="model">La escuela pública en China</div>
+        <h1>Allá ningún profesor prepara sus clases solo.</h1>
+        <p class="sub">En China cada profesor pertenece al grupo de investigación docente de su materia. Planean juntos, se observan cada semana y compiten por dar la mejor clase del distrito. Shanghái, donde este sistema es muy fuerte, fue primera en las pruebas PISA.</p>
+        <div class="actions">
+          <a class="btn btn-main" href="#metodo">Ver cómo funciona</a>
+          <a class="btn btn-line" href="#colombia">Comparar con Colombia</a>
+        </div>
+      </div>
+      <div class="kanji" aria-label="教研组, jiàoyánzǔ: grupo de investigación docente">
+        <div class="v" aria-hidden="true">教研组</div>
+        <div class="r" aria-hidden="true"><span><b>jiàoyánzǔ</b></span><span>grupo de investigación docente</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="carrera" style="padding-top:24px">
+  <div class="wrap">
+    <h2>Cómo se llega a ser profesor en China</h2>
+    <p class="lede">Los profesores de colegio público los contrata la oficina de educación del condado o del distrito. La plaza más buscada es la que viene con cupo oficial del Estado, conocida como el "tazón de arroz de hierro" por su estabilidad.</p>
+    <ol class="steps">
+      <li><h3>Estudiar</h3><p>En una universidad normal (pedagógica) o en otra carrera. Hay becas del gobierno que pagan la carrera completa a cambio de enseñar varios años donde el Estado lo mande.</p></li>
+      <li><h3>Certificado nacional</h3><p>Todo profesor necesita el certificado docente: examen escrito nacional y entrevista con clase de muestra. Se debe renovar cada 5 años.</p></li>
+      <li><h3>Examen de contratación</h3><p>El condado o distrito publica sus plazas y hace su propio examen, con prueba escrita, entrevista y clase frente a jurados.</p></li>
+      <li><h3>Maestro y aprendiz</h3><p>Al profesor nuevo le asignan un profesor veterano de su misma materia que lo observa, lo corrige y lo guía durante sus primeros años.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="metodo" style="padding-top:8px">
+  <div class="wrap">
+    <div class="cycle">
+      <div>
+        <h2>El método: el grupo de investigación docente</h2>
+        <p class="lede">Cada colegio organiza a sus profesores por materia y grado. El grupo se reúne cada semana y trabaja en un ciclo de cuatro pasos. Toque cada paso para ver qué pasa ahí.</p>
+        <div class="ring" role="group" aria-label="Ciclo del grupo de investigación docente">
+          <div class="center"><span>Cada materia, cada semana</span></div>
+          <button class="node n1" data-i="0" aria-pressed="true"><small>Paso 1</small>Preparar juntos</button>
+          <button class="node n2" data-i="1" aria-pressed="false"><small>Paso 2</small>Clase abierta</button>
+          <button class="node n3" data-i="2" aria-pressed="false"><small>Paso 3</small>Comentar la clase</button>
+          <button class="node n4" data-i="3" aria-pressed="false"><small>Paso 4</small>Concursar y difundir</button>
+        </div>
+      </div>
+      <div>
+        <div class="panel" id="panel" aria-live="polite"></div>
+        <div class="nav">
+          <button id="prev" type="button">Paso anterior</button>
+          <button id="next" type="button">Siguiente paso</button>
+        </div>
+        <p class="origin">Los grupos existen en los colegios chinos desde los años 50. Arriba de ellos, cada distrito tiene investigadores docentes: profesores con experiencia que visitan colegios, observan clases y organizan la formación. Inglaterra trajo profesores de Shanghái desde 2014 para copiar su forma de enseñar matemáticas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dia">
+  <div class="wrap">
+    <h2>Cómo es el trabajo de un profesor chino</h2>
+    <p class="lede">Además del trabajo en grupo, hay reglas que llaman la atención a cualquier colombiano.</p>
+    <div class="facts">
+      <div class="fact"><div class="big">1 materia</div><div><h3>Especialista desde primaria</h3><p>Incluso en primaria, el profesor suele enseñar una sola materia, como matemáticas o lengua china, a varios grupos.</p></div></div>
+      <div class="fact"><div class="big">Director de grupo</div><div><h3>Un responsable por salón</h3><p>Cada grupo tiene un profesor encargado que sigue a los alumnos, habla con los padres y responde por la disciplina.</p></div></div>
+      <div class="fact"><div class="big">5 niveles</div><div><h3>Categorías profesionales</h3><p>El sueldo depende de la categoría. Para subir cuentan los años, las clases abiertas, los concursos ganados y lo que haya publicado.</p></div></div>
+      <div class="fact"><div class="big">Por ley</div><div><h3>Sueldo igual al de funcionario</h3><p>El sueldo promedio de los profesores de educación básica no puede ser menor que el de los funcionarios públicos de la misma zona.</p></div></div>
+      <div class="fact"><div class="big">Doble reducción</div><div><h3>Menos tareas, menos academias</h3><p>Desde 2021 se limitaron las tareas y se prohibieron las academias con ánimo de lucro en materias escolares. A cambio, los profesores dan actividades después de clase.</p></div></div>
+      <div class="fact"><div class="big">10 de septiembre</div><div><h3>Día del Maestro</h3><p>Es una fecha nacional. El profesor tiene alto respeto social, aunque con mucha presión por los resultados de los exámenes.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="problemas" style="padding-top:8px">
+  <div class="wrap">
+    <h2>Lo que no funciona tan bien</h2>
+    <p class="lede">La presión por los exámenes de ingreso a bachillerato y a la universidad pesa sobre alumnos y profesores. Y ahora llegó un problema nuevo: nacen muchos menos niños.</p>
+    <div class="bar">
+      <h3>Niños que entraron a primer grado en China:</h3>
+      <div class="bars">
+        <div class="brow"><span>2023</span><div class="bt"><i style="width:100%"></i></div><b>18,7 millones</b></div>
+        <div class="brow"><span>2024</span><div class="bt"><i style="width:86%"></i></div><b>16,2 millones</b></div>
+        <div class="brow"><span>2025</span><div class="bt"><i style="width:78%"></i></div><b>14,6 millones</b></div>
+      </div>
+    </div>
+    <p class="small">En dos años entraron 22% menos niños a primaria. Investigadores de la Universidad Normal de Beijing calculan que hacia 2035 podrían sobrar 1,5 millones de profesores de primaria. Ya se cerraron miles de jardines infantiles y algunas ciudades están pasando profesores de primaria a grados más altos. Además, en 2026 el Congreso chino tiene en su agenda reformar la Ley de Profesores de 1993. El borrador conocido en 2021 pedía pregrado universitario a los maestros de primaria.</p>
+  </div>
+</section>
+
+<section id="colombia">
+  <div class="wrap">
+    <h2>China y Colombia, lado a lado</h2>
+    <p class="lede">Colombia tiene piezas parecidas, pero funcionan distinto. Este es el comparativo punto por punto.</p>
+    <div class="cmp-head" aria-hidden="true"><span>Tema</span><span>China</span><span>Colombia</span></div>
+    <div class="cmp">
+      <div class="row">
+        <h3>Qué se exige para enseñar</h3>
+        <div class="cell jp"><span class="who">China</span><b>Título y certificado nacional</b>Examen nacional de certificación, que se renueva cada 5 años.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Título</b>Licenciatura, normalista superior, o profesional de otra carrera con estudios de pedagogía.</div>
+      </div>
+      <div class="row">
+        <h3>Quién contrata</h3>
+        <div class="cell jp"><span class="who">China</span><b>El condado o distrito</b>Su oficina de educación, con cupos oficiales del Estado.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>La secretaría certificada</b>La secretaría de educación del departamento o del municipio certificado.</div>
+      </div>
+      <div class="row">
+        <h3>Cómo se entra</h3>
+        <div class="cell jp"><span class="who">China</span><b>Examen local</b>Cada condado o distrito hace su examen, por lo general cada año.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Concurso de méritos</b>Lo hace la CNSC cada varios años; mientras tanto se nombran provisionales. El concurso 2026 ofrece más de 26.000 vacantes.</div>
+      </div>
+      <div class="row">
+        <h3>Cómo mejora enseñando</h3>
+        <div class="cell jp"><span class="who">China</span><b>Grupo de su materia cada semana</b>En todos los colegios, con apoyo de investigadores docentes del distrito.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Tutores del programa del Ministerio</b>El programa de tutorías PTA/FI 3.0 tiene 6.277 tutores en 2026 que acompañan a colegios focalizados. No llega a todos.</div>
+      </div>
+      <div class="row">
+        <h3>Cómo sube de sueldo</h3>
+        <div class="cell jp"><span class="who">China</span><b>Categorías profesionales</b>Cinco niveles; cuentan clases abiertas, concursos y publicaciones.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Depende del estatuto</b>Con el Decreto 2277 de 1979, por años y cursos. Con el Decreto 1278 de 2002, por una evaluación de competencias que incluye video de una clase.</div>
+      </div>
+      <div class="row">
+        <h3>Profesor nuevo</h3>
+        <div class="cell jp"><span class="who">China</span><b>Tiene un maestro asignado</b>Un veterano de su materia lo acompaña en sus primeros años.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Período de prueba</b>Se evalúa al profesor nuevo, pero no hay un mentor asignado en todos los colegios.</div>
+      </div>
+      <div class="row">
+        <h3>Quién paga</h3>
+        <div class="cell jp"><span class="who">China</span><b>El gobierno local</b>Con apoyo de la provincia y la nación. Por ley, igual o más que un funcionario local.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>La nación, casi todo</b>Llega a las regiones por el Sistema General de Participaciones (SGP).</div>
+      </div>
+      <div class="row">
+        <h3>Escuela rural</h3>
+        <div class="cell jp"><span class="who">China</span><b>Plan de puestos especiales</b>Desde 2006 manda profesores jóvenes al campo con contratos de 3 años y cada vez más rotación entre ciudad y campo.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Escuela Nueva</b>Modelo colombiano en el que un profesor atiende varios grados a la vez. Otros países lo han copiado.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="adoptar" style="padding-top:8px">
+  <div class="wrap">
+    <h2>Lo que un colegio colombiano puede copiar desde ya</h2>
+    <p class="lede">La exigencia de los exámenes chinos no hace falta copiarla. La forma en que los profesores trabajan juntos, sí.</p>
+    <div class="adopt">
+      <div><h3>Un grupo por materia que se reúna cada semana</h3><p>Los profesores de matemáticas, o los de lenguaje, se reparten el plan del período y revisan juntos cada unidad.</p></div>
+      <div><h3>Una clase abierta con comentario franco</h3><p>Uno dicta y los demás observan. Después se dice qué funcionó y qué no, sin tomarlo como ataque personal.</p></div>
+      <div><h3>Un mentor para cada profesor nuevo</h3><p>Todo docente que llega, provisional o de carrera, queda a cargo de un colega con experiencia en su materia.</p></div>
+      <div><h3>Un concurso municipal de la mejor clase</h3><p>La secretaría o el municipio premian las mejores clases y las graban para que otros colegios las usen.</p></div>
+    </div>
+    <p class="verdict">China nos enseña que una buena clase se construye en grupo y se pule con exigencia. Colombia puede empezar por darle un mentor a cada profesor nuevo.</p>
+  </div>
+</section>
+
+<section id="preguntas" style="padding-top:8px">
+  <div class="wrap">
+    <h2>Preguntas frecuentes</h2>
+    <details><summary>¿Es verdad que China ocupó el primer lugar en PISA?</summary><p>Participaron algunas regiones, no todo el país. Shanghái fue primera en 2009 y 2012, y un grupo de cuatro provincias y ciudades ricas lo fue en 2018. China no participó en la prueba de 2022.</p></details>
+    <details><summary>¿Los profesores chinos ganan bien?</summary><p>La ley dice que su sueldo promedio no puede ser menor que el de un funcionario público de la misma zona, y la plaza oficial da mucha estabilidad. El sueldo cambia bastante entre ciudades ricas y zonas pobres.</p></details>
+    <details><summary>¿Por qué ahora sobran profesores?</summary><p>Porque nacen muchos menos niños que hace diez años. Primero se vaciaron los jardines infantiles y ahora está bajando la primaria. El gobierno está reduciendo cupos de formación docente y reorganizando colegios.</p></details>
+    <details><summary>¿Se puede hacer un grupo así en un colegio del Bajo Cauca?</summary><p>Sí. Hasta en un colegio pequeño, dos o tres profesores de la misma área pueden reunirse una hora a la semana, repartirse la preparación y observarse una vez al mes.</p></details>
+    <details><summary>¿De dónde sale esta información?</summary><p>Del Ministerio de Educación de China, la Oficina Nacional de Estadísticas de China (cifras de matrícula 2025), la agencia Xinhua sobre la reforma de la Ley de Profesores, investigadores de la Universidad Normal de Beijing, del Ministerio de Educación Nacional de Colombia sobre el programa de tutorías 2026 y de la CNSC sobre el concurso docente 2026.</p></details>
+  </div>
+</section>
+
+<section id="compartir" style="padding-top:8px">
+  <div class="wrap">
+    <div class="contact">
+      <div>
+        <h2>Compártala con un profesor</h2>
+        <p>Si conoce un rector, un docente o un padre de familia al que le sirva, mándele esta página. Y si su colegio necesita una app para organizar su trabajo, en Vibras Positivas HM se la hacemos.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-wa" id="share" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.6-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+          Compartir por WhatsApp
+        </a>
+        <a class="btn btn-line" data-wa="Hola Harold, vi la página de los profesores en China y quiero una app para mi colegio." href="#" target="_blank" rel="noopener">Pedir una app para mi colegio</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Información revisada al 25 de septiembre de 2026 (hora de Colombia). Los datos de China corresponden a la educación pública obligatoria (primaria y secundaria básica). Los datos de Colombia pueden cambiar con las nuevas reglas del concurso docente y del Ministerio.</p>
+    <p>Página hecha por Vibras Positivas HM · Caucasia, Antioquia.</p>
+  </div>
+</footer>
+
+<div class="stick">
+  <div class="p">China vs. Colombia<small>Profesores en grupo</small></div>
+  <a class="btn btn-wa" id="share2" href="#" target="_blank" rel="noopener">Compartir</a>
+</div>
+
+<script>
+(function(){
+  var PHONE='573117700431';
+  function wa(t){return 'https://wa.me/'+PHONE+'?text='+encodeURIComponent(t);}
+  document.querySelectorAll('[data-wa]').forEach(function(a){a.href=wa(a.getAttribute('data-wa'));});
+  var url=location.href.split('#')[0];
+  var msg='Mire cómo trabajan los profesores en China y cómo nos comparamos en Colombia: '+url;
+  ['share','share2'].forEach(function(id){
+    var a=document.getElementById(id);
+    a.href='https://wa.me/?text='+encodeURIComponent(msg);
+    a.addEventListener('click',function(e){
+      if(navigator.share && id==='share2'){e.preventDefault();navigator.share({title:document.title,text:'Así trabajan los profesores en China',url:url}).catch(function(){});}
+    });
+  });
+
+  var steps=[
+    {t:'Preparar juntos',p:'El grupo de la materia se reparte el programa del semestre. Cada profesor prepara a fondo una unidad y la presenta a los demás, que la discuten y la ajustan. Al final todos enseñan con el mismo plan mejorado.',tip:'En chino se llama preparación colectiva de clases. Ahorra trabajo y sube el nivel de todos.'},
+    {t:'Clase abierta',p:'Un profesor dicta una clase con sus colegas, el coordinador y a veces el investigador docente del distrito sentados al fondo del salón. Todos los profesores deben dar y observar varias clases abiertas al año.',tip:'Se observa cómo explica, qué preguntas hace y cómo responden los alumnos.'},
+    {t:'Comentar la clase',p:'Después, el grupo comenta la clase con franqueza: qué estuvo bien, qué faltó y qué se haría distinto. El profesor que la dictó explica sus decisiones.',tip:'Es una crítica directa, entre colegas, pensada para mejorar la próxima clase.'},
+    {t:'Concursar y difundir',p:'Las mejores clases compiten en concursos del colegio, del distrito, de la provincia y hasta nacionales. Las ganadoras se graban y se comparten como modelo.',tip:'Ganar un concurso cuenta para subir de categoría profesional y de sueldo.'}
+  ];
+  var nodes=[].slice.call(document.querySelectorAll('.node'));
+  var panel=document.getElementById('panel');
+  var cur=0;
+  function show(i){
+    cur=(i+steps.length)%steps.length;
+    var s=steps[cur];
+    panel.innerHTML='<h3>'+s.t+'</h3><p>'+s.p+'</p><p class="tip">'+s.tip+'</p>';
+    nodes.forEach(function(n,k){n.setAttribute('aria-pressed',k===cur?'true':'false');});
+    document.getElementById('prev').disabled=false;
+    document.getElementById('next').textContent=cur===steps.length-1?'Volver al paso 1':'Siguiente paso';
+  }
+  nodes.forEach(function(n){n.addEventListener('click',function(){show(+n.getAttribute('data-i'));});});
+  document.getElementById('prev').addEventListener('click',function(){show(cur-1);});
+  document.getElementById('next').addEventListener('click',function(){show(cur+1);});
+  show(0);
+})();
+</script>
+</body>
+</html>
